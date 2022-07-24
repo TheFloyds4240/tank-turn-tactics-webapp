@@ -1,0 +1,32 @@
+{
+    "name": "tank_tactics",
+    "version": "1.0.0",
+    "description": "An implementation of the game from this talk: https://youtu.be/t9WMNuyjm4w",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "devstart": "nodemon server/server.js -w server/server.js",
+        "eraseGame": "./scripts/erasegame.sh",
+        "resetGame": "./scripts/resetgame.sh",
+        "createGame": "node scripts/creategame.js"
+    },
+    "keywords": [
+        "tanks",
+        "tank",
+        "tank-tactics",
+        "tank_tactics",
+        "tactics",
+        "game",
+        "p5",
+        "Gigo_G"
+    ],
+    "author": "Gigo_G",
+    "license": "ISC",
+    "dependencies": {
+        "p5": "^1.4.0",
+        "ws": "^8.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
